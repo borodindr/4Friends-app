@@ -1,12 +1,22 @@
-# sing-box-for-apple
+# 4Friends for Apple
 
-Experimental iOS/macOS/tvOS client for sing-box, the universal proxy platform.
+4Friends is a white-label fork of [SagerNet/sing-box-for-apple](https://github.com/SagerNet/sing-box-for-apple), an experimental iOS/macOS/tvOS client for sing-box.
 
 ## Documentation
 
+Original upstream client documentation:
+
 [SFI](https://sing-box.sagernet.org/installation/clients/sfi/) | [SFM](https://sing-box.sagernet.org/installation/clients/sfm/)
 
-## License
+## License and Attribution
+
+This project is based on [SagerNet/sing-box-for-apple](https://github.com/SagerNet/sing-box-for-apple).
+
+Original project and this fork are distributed under the GNU General Public License v3.0 or later. See [LICENSE](./LICENSE).
+
+4Friends branding and project-specific modifications are maintained in this fork.
+
+## Upstream Copyright
 
 ```
 Copyright (C) 2022 by nekohasekai <contact-sagernet@sekai.icu>

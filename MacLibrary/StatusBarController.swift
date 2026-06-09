@@ -973,7 +973,7 @@ private class StatusBarHeaderView: NSView {
     init(environments: ExtensionEnvironments) {
         self.environments = environments
 
-        titleLabel = NSTextField(labelWithString: "sing-box")
+        titleLabel = NSTextField(labelWithString: "4Friends")
         statusSwitch = NSSwitch()
         loadingIndicator = NSProgressIndicator()
 

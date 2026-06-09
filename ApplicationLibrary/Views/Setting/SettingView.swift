@@ -173,19 +173,19 @@ public struct SettingView: View {
                             Text("Configuration")
                         }
                     }
-                    Link(destination: URL(string: String("https://github.com/SagerNet/sing-box"))!) {
+                    Link(destination: URL(string: String("https://github.com/borodindr/4Friends-app"))!) {
                         Label("Source Code", systemImage: "pills.fill")
                     }
                     .buttonStyle(.plain)
                     .foregroundColor(.accentColor)
-                    .contextMenu {
-                        Link(destination: URL(string: String("https://github.com/SagerNet/sing-box/releases"))!) {
-                            Text("Releases")
-                        }
-                    }
-                    RequestReviewButton {
-                        Label("Rate on the App Store", systemImage: "text.bubble.fill")
-                    }
+//                    .contextMenu {
+//                        Link(destination: URL(string: String("https://github.com/SagerNet/sing-box/releases"))!) {
+//                            Text("Releases")
+//                        }
+//                    }
+//                    RequestReviewButton {
+//                        Label("Rate on the App Store", systemImage: "text.bubble.fill")
+//                    }
                     #if os(macOS)
                         if Variant.useSystemExtension {
                             Tabs.sponsors.navigationLink

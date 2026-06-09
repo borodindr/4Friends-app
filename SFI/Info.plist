@@ -2,21 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BasePackageIdentifier</key>
-	<string>$(BASE_PACKAGE_IDENTIFIER)</string>
 	<key>AppGroupIdentifier</key>
 	<string>$(APP_GROUP_IDENTIFIER)</string>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
 		<string>$(BASE_PACKAGE_IDENTIFIER).update_profiles</string>
 	</array>
+	<key>BasePackageIdentifier</key>
+	<string>$(BASE_PACKAGE_IDENTIFIER)</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
 			<string>AppIcon.icns</string>
 			<key>CFBundleTypeName</key>
-			<string>sing-box Profile</string>
+			<string>4Friends Profile</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>LSHandlerRank</key>
@@ -67,7 +67,7 @@
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>
 			<key>NSUbiquitousContainerName</key>
-			<string>sing-box</string>
+			<string>4Friends</string>
 			<key>NSUbiquitousContainerSupportedFolderLevels</key>
 			<string>Any</string>
 		</dict>
@@ -87,7 +87,7 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>sing-box Profile</string>
+			<string>4Friends Profile</string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
@@ -111,7 +111,7 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>sing-box Profile</string>
+			<string>4Friends Profile</string>
 			<key>UTTypeIconFiles</key>
 			<array>
 				<string>AppIcon.icns</string>
@@ -127,9 +127,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>As a universal proxy platform, sing-box configures routing according to your configuration.</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Camera access is required to scan QR codes for importing profiles.</string>
 </dict>
 </plist>

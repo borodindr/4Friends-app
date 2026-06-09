@@ -9,17 +9,17 @@ struct ServiceToggleControl: ControlWidget {
             provider: Provider()
         ) { value in
             ControlWidgetToggle(
-                "sing-box",
+                "4Friends",
                 isOn: value,
                 action: ToggleServiceControlIntent()
             ) { isOn in
-                Label(isOn ? "Running" : "Stopped", systemImage: "shippingbox.fill")
+                Label(isOn ? "Running" : "Stopped", systemImage: "checkmark.shield")
                     .controlWidgetActionHint(isOn ? "Stop" : "Start")
             }
             .tint(.init(red: CGFloat(Double(69) / 255), green: CGFloat(Double(90) / 255), blue: CGFloat(Double(100) / 255)))
         }
         .displayName("Toggle")
-        .description("Start or stop sing-box service.")
+        .description("Start or stop 4Friends service.")
     }
 }
 
@@ -36,7 +36,7 @@ extension ServiceToggleControl {
 }
 
 struct ToggleServiceControlIntent: SetValueIntent {
-    static var title: LocalizedStringResource = "Toggle sing-box"
+    static var title: LocalizedStringResource = "Toggle 4Friends"
 
     @Parameter(title: "Running")
     var value: Bool
