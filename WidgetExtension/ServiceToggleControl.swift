@@ -13,7 +13,7 @@ struct ServiceToggleControl: ControlWidget {
                 isOn: value,
                 action: ToggleServiceControlIntent()
             ) { isOn in
-                Label(isOn ? "Running" : "Stopped", systemImage: "checkmark.shield")
+                Label(isOn ? "Running" : "Stopped", image: "ToggleIcon")
                     .controlWidgetActionHint(isOn ? "Stop" : "Start")
             }
             .tint(.init(red: CGFloat(Double(69) / 255), green: CGFloat(Double(90) / 255), blue: CGFloat(Double(100) / 255)))
