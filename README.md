@@ -1,6 +1,6 @@
-# 4Friends for Apple
+# VPN4Friends for Apple
 
-4Friends is a white-label fork of [SagerNet/sing-box-for-apple](https://github.com/SagerNet/sing-box-for-apple), an experimental iOS/macOS/tvOS client for sing-box.
+VPN4Friends is a white-label fork of [SagerNet/sing-box-for-apple](https://github.com/SagerNet/sing-box-for-apple), an experimental iOS/macOS/tvOS client for sing-box.
 
 ## Documentation
 
@@ -14,7 +14,7 @@ This project is based on [SagerNet/sing-box-for-apple](https://github.com/SagerN
 
 Original project and this fork are distributed under the GNU General Public License v3.0 or later. See [LICENSE](./LICENSE).
 
-4Friends branding and project-specific modifications are maintained in this fork.
+VPN4Friends branding and project-specific modifications are maintained in this fork.
 
 ## Upstream Copyright
 

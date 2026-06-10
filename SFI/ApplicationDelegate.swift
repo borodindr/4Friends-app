@@ -85,7 +85,7 @@ class ApplicationDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCe
     private nonisolated func registerFileProviderDomain() {
         let domain = NSFileProviderDomain(
             identifier: NSFileProviderDomainIdentifier(AppConfiguration.fileProviderDomainID),
-            displayName: "4Friends"
+            displayName: "VPN4Friends"
         )
         NSFileProviderManager.add(domain) { error in
             if let error {

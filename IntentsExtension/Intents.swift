@@ -3,13 +3,13 @@ import Foundation
 import Library
 
 struct StartServiceIntent: AppIntent {
-    static var title: LocalizedStringResource = "Start 4Friends"
+    static var title: LocalizedStringResource = "Start VPN4Friends"
 
     static var description =
-        IntentDescription("Start or reload 4Friends service with specified profile")
+        IntentDescription("Start or reload VPN4Friends service with specified profile")
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Start 4Friends service with profile \(\.$profile).")
+        Summary("Start VPN4Friends service with profile \(\.$profile).")
     }
 
     @Parameter(title: "Profile", optionsProvider: ProfileProvider())
@@ -46,13 +46,13 @@ struct StartServiceIntent: AppIntent {
 }
 
 struct RestartServiceIntent: AppIntent {
-    static var title: LocalizedStringResource = "Restart 4Friends"
+    static var title: LocalizedStringResource = "Restart VPN4Friends"
 
     static var description =
-        IntentDescription("Restart 4Friends service")
+        IntentDescription("Restart VPN4Friends service")
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Restart 4Friends service")
+        Summary("Restart VPN4Friends service")
     }
 
     func perform() async throws -> some IntentResult & ProvidesDialog {
@@ -71,13 +71,13 @@ struct RestartServiceIntent: AppIntent {
 }
 
 struct StopServiceIntent: AppIntent {
-    static var title: LocalizedStringResource = "Stop 4Friends"
+    static var title: LocalizedStringResource = "Stop VPN4Friends"
 
     static var description =
-        IntentDescription("Stop 4Friends service")
+        IntentDescription("Stop VPN4Friends service")
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Stop 4Friends service")
+        Summary("Stop VPN4Friends service")
     }
 
     func perform() async throws -> some IntentResult & ProvidesDialog {
@@ -90,13 +90,13 @@ struct StopServiceIntent: AppIntent {
 }
 
 struct ToggleServiceIntent: AppIntent {
-    static var title: LocalizedStringResource = "Toggle 4Friends"
+    static var title: LocalizedStringResource = "Toggle VPN4Friends"
 
     static var description =
-        IntentDescription("Toggle 4Friends service")
+        IntentDescription("Toggle VPN4Friends service")
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Toggle 4Friends service")
+        Summary("Toggle VPN4Friends service")
     }
 
     func perform() async throws -> some IntentResult & ReturnsValue<Bool> {
@@ -115,13 +115,13 @@ struct ToggleServiceIntent: AppIntent {
 }
 
 struct GetServiceStatus: AppIntent {
-    static var title: LocalizedStringResource = "Get is 4Friends service started"
+    static var title: LocalizedStringResource = "Get is VPN4Friends service started"
 
     static var description =
-        IntentDescription("Get is 4Friends service started")
+        IntentDescription("Get is VPN4Friends service started")
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Get is 4Friends service started")
+        Summary("Get is VPN4Friends service started")
     }
 
     func perform() async throws -> some IntentResult & ReturnsValue<Bool> {
@@ -133,13 +133,13 @@ struct GetServiceStatus: AppIntent {
 }
 
 struct GetCurrentProfile: AppIntent {
-    static var title: LocalizedStringResource = "Get current 4Friends profile"
+    static var title: LocalizedStringResource = "Get current VPN4Friends profile"
 
     static var description =
-        IntentDescription("Get current 4Friends profile")
+        IntentDescription("Get current VPN4Friends profile")
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Get current 4Friends profile")
+        Summary("Get current VPN4Friends profile")
     }
 
     func perform() async throws -> some IntentResult & ReturnsValue<String> {
@@ -151,13 +151,13 @@ struct GetCurrentProfile: AppIntent {
 }
 
 struct UpdateProfileIntent: AppIntent {
-    static var title: LocalizedStringResource = "Update 4Friends profile"
+    static var title: LocalizedStringResource = "Update VPN4Friends profile"
 
     static var description =
-        IntentDescription("Update specified 4Friends profile")
+        IntentDescription("Update specified VPN4Friends profile")
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Update 4Friends profile \(\.$profile).")
+        Summary("Update VPN4Friends profile \(\.$profile).")
     }
 
     @Parameter(title: "Profile", optionsProvider: RemoteProfileProvider())

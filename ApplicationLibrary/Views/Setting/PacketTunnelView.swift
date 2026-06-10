@@ -30,7 +30,7 @@ struct PacketTunnelView: View {
                 FormView {
                     #if !os(macOS)
                         FormToggle("Ignore Memory Limit", """
-                        Do not enforce memory limits on 4Friends. Will cause OOM on non-jailbroken devices.
+                        Do not enforce memory limits on VPN4Friends. Will cause OOM on non-jailbroken devices.
                         """, $ignoreMemoryLimit) { newValue in
                             await SharedPreferences.ignoreMemoryLimit.set(newValue)
                             await restartService()

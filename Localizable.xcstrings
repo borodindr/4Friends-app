@@ -293,24 +293,24 @@
       },
       "shouldTranslate" : false
     },
-    "4Friends" : {
+    "VPN4Friends" : {
       "localizations" : {
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "4Friends"
+            "value" : "VPN4Friends"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "4Friends"
+            "value" : "VPN4Friends"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "4Friends"
+            "value" : "VPN4Friends"
           }
         }
       },
@@ -2660,30 +2660,30 @@
         }
       }
     },
-    "Do not enforce memory limits on 4Friends. Will cause OOM on non-jailbroken devices." : {
+    "Do not enforce memory limits on VPN4Friends. Will cause OOM on non-jailbroken devices." : {
       "localizations" : {
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "برای 4Friends محدودیت اجباری حافظه اعمال نکنید. این کار در دستگاه‌های بدون جیلبریک باعث OOM می‌شود."
+            "value" : "برای VPN4Friends محدودیت اجباری حافظه اعمال نکنید. این کار در دستگاه‌های بدون جیلبریک باعث OOM می‌شود."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не применять к 4Friends принудительное ограничение памяти. На невзломанных устройствах это приведет к OOM."
+            "value" : "Не применять к VPN4Friends принудительное ограничение памяти. На невзломанных устройствах это приведет к OOM."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "不要对 4Friends 强制执行内存限制。这将导致未越狱设备出现 OOM。"
+            "value" : "不要对 VPN4Friends 强制执行内存限制。这将导致未越狱设备出现 OOM。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "不要對 4Friends 強制執行內存限制。這將導致未越獄設備出現 OOM。"
+            "value" : "不要對 VPN4Friends 強制執行內存限制。這將導致未越獄設備出現 OOM。"
           }
         }
       }
@@ -3679,30 +3679,30 @@
         }
       }
     },
-    "File will be located at iCloud Drive/4Friends/%@" : {
+    "File will be located at iCloud Drive/VPN4Friends/%@" : {
       "localizations" : {
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "فایل در iCloud Drive/4Friends/%@ قرار خواهد گرفت"
+            "value" : "فایل در iCloud Drive/VPN4Friends/%@ قرار خواهد گرفت"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Файл будет расположен в iCloud Drive/4Friends/%@"
+            "value" : "Файл будет расположен в iCloud Drive/VPN4Friends/%@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此文件将位于 iCloud 云盘/4Friends/%@"
+            "value" : "此文件将位于 iCloud 云盘/VPN4Friends/%@"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此檔案將位於 iCloud 雲碟/4Friends/%@"
+            "value" : "此檔案將位於 iCloud 雲碟/VPN4Friends/%@"
           }
         }
       }
@@ -4614,30 +4614,30 @@
         }
       }
     },
-    "In the standalone version of SFM, reading WiFi state requires this app to be running. After you quit the SFM app, the 4Friends service cannot continue to provide `wifi_ssid` and `wifi_bssid` routing rules." : {
+    "In the standalone version of SFM, reading WiFi state requires this app to be running. After you quit the SFM app, the VPN4Friends service cannot continue to provide `wifi_ssid` and `wifi_bssid` routing rules." : {
       "localizations" : {
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "در نسخه مستقل SFM، برای خواندن وضعیت WiFi برنامه باید در حال اجرا بماند. پس از خروج از SFM، سرویس 4Friends دیگر نمی‌تواند قوانین مسیریابی `wifi_ssid` و `wifi_bssid` را ارائه دهد."
+            "value" : "در نسخه مستقل SFM، برای خواندن وضعیت WiFi برنامه باید در حال اجرا بماند. پس از خروج از SFM، سرویس VPN4Friends دیگر نمی‌تواند قوانین مسیریابی `wifi_ssid` و `wifi_bssid` را ارائه دهد."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "В самостоятельной версии SFM для чтения состояния Wi-Fi приложение должно оставаться запущенным. После выхода из SFM служба 4Friends больше не сможет предоставлять правила маршрутизации `wifi_ssid` и `wifi_bssid`."
+            "value" : "В самостоятельной версии SFM для чтения состояния Wi-Fi приложение должно оставаться запущенным. После выхода из SFM служба VPN4Friends больше не сможет предоставлять правила маршрутизации `wifi_ssid` и `wifi_bssid`."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "在 SFM 独立版本中，读取 WiFi 状态需要应用保持运行。退出 SFM 应用后，4Friends 服务将无法继续提供 `wifi_ssid` 和 `wifi_bssid` 路由规则。"
+            "value" : "在 SFM 独立版本中，读取 WiFi 状态需要应用保持运行。退出 SFM 应用后，VPN4Friends 服务将无法继续提供 `wifi_ssid` 和 `wifi_bssid` 路由规则。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "在 SFM 獨立版本中，讀取 WiFi 狀態需要應用保持運行。退出 SFM 應用後，4Friends 服務將無法繼續提供 `wifi_ssid` 和 `wifi_bssid` 路由規則。"
+            "value" : "在 SFM 獨立版本中，讀取 WiFi 狀態需要應用保持運行。退出 SFM 應用後，VPN4Friends 服務將無法繼續提供 `wifi_ssid` 和 `wifi_bssid` 路由規則。"
           }
         }
       }
@@ -6531,30 +6531,30 @@
         }
       }
     },
-    "Quit 4Friends" : {
+    "Quit VPN4Friends" : {
       "localizations" : {
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "خروج از 4Friends"
+            "value" : "خروج از VPN4Friends"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Выйти из 4Friends"
+            "value" : "Выйти из VPN4Friends"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出 4Friends"
+            "value" : "退出 VPN4Friends"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出 4Friends"
+            "value" : "退出 VPN4Friends"
           }
         }
       }
@@ -8056,30 +8056,30 @@
         }
       }
     },
-    "The 4Friends service requires Helper Service to provide process lookup functionality, which supports `process_name` and `process_path` routing rules." : {
+    "The VPN4Friends service requires Helper Service to provide process lookup functionality, which supports `process_name` and `process_path` routing rules." : {
       "localizations" : {
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "برای پشتیبانی از قوانین مسیریابی `process_name` و `process_path`، سرویس 4Friends به سرویس کمکی برای جست‌وجوی فرایند نیاز دارد."
+            "value" : "برای پشتیبانی از قوانین مسیریابی `process_name` و `process_path`، سرویس VPN4Friends به سرویس کمکی برای جست‌وجوی فرایند نیاز دارد."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Службе 4Friends нужна вспомогательная служба для поиска процессов, чтобы поддерживать правила маршрутизации `process_name` и `process_path`."
+            "value" : "Службе VPN4Friends нужна вспомогательная служба для поиска процессов, чтобы поддерживать правила маршрутизации `process_name` и `process_path`."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "4Friends 服务需要辅助服务来提供进程查找功能，以支持 `process_name` 和 `process_path` 路由规则。"
+            "value" : "VPN4Friends 服务需要辅助服务来提供进程查找功能，以支持 `process_name` 和 `process_path` 路由规则。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "4Friends 服務需要輔助服務來提供進程查找功能，以支持 `process_name` 和 `process_path` 路由規則。"
+            "value" : "VPN4Friends 服務需要輔助服務來提供進程查找功能，以支持 `process_name` 和 `process_path` 路由規則。"
           }
         }
       }
@@ -8252,30 +8252,30 @@
         }
       }
     },
-    "To import configurations from your iPhone or iPad, make sure 4Friends is the **same version** on both devices and **VPN is disabled**." : {
+    "To import configurations from your iPhone or iPad, make sure VPN4Friends is the **same version** on both devices and **VPN is disabled**." : {
       "localizations" : {
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "برای وارد کردن پیکربندی از iPhone یا iPad خود، مطمئن شوید 4Friends روی هر دو دستگاه **همان نسخه** است و **VPN غیرفعال** است."
+            "value" : "برای وارد کردن پیکربندی از iPhone یا iPad خود، مطمئن شوید VPN4Friends روی هر دو دستگاه **همان نسخه** است و **VPN غیرفعال** است."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Чтобы импортировать конфигурацию с вашего iPhone или iPad, убедитесь, что на обоих устройствах 4Friends **одной версии** и **VPN отключен**."
+            "value" : "Чтобы импортировать конфигурацию с вашего iPhone или iPad, убедитесь, что на обоих устройствах VPN4Friends **одной версии** и **VPN отключен**."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "要从您的 iPhone 或 iPad 导入配置，请确保两台设备上的 4Friends 是**相同版本**且 **VPN 已禁用**。"
+            "value" : "要从您的 iPhone 或 iPad 导入配置，请确保两台设备上的 VPN4Friends 是**相同版本**且 **VPN 已禁用**。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "要從您的 iPhone 或 iPad 導入配置，請確保兩臺設備上的 4Friends 是**相同版本**且 **VPN 已禁用**。"
+            "value" : "要從您的 iPhone 或 iPad 導入配置，請確保兩臺設備上的 VPN4Friends 是**相同版本**且 **VPN 已禁用**。"
           }
         }
       }

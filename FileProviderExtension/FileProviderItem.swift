@@ -44,7 +44,7 @@ class FileProviderItem: NSObject, NSFileProviderItem {
 
     var filename: String {
         if isRoot {
-            return "4Friends"
+            return "VPN4Friends"
         }
         return url.lastPathComponent
     }

@@ -119,7 +119,7 @@ public struct NewProfileView: View {
             } footer: {
                 if viewModel.profileType == .icloud {
                     let fileName = viewModel.remotePath.isEmpty ? String(localized: "FileName") : viewModel.remotePath
-                    Text("File will be located at iCloud Drive/4Friends/\(fileName)")
+                    Text("File will be located at iCloud Drive/VPN4Friends/\(fileName)")
                 }
             }
             #if os(iOS) || os(tvOS)

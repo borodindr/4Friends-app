@@ -16,7 +16,7 @@
 			<key>CFBundleTypeIconFile</key>
 			<string>AppIcon.icns</string>
 			<key>CFBundleTypeName</key>
-			<string>4Friends Profile</string>
+			<string>VPN4Friends Profile</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>LSHandlerRank</key>
@@ -67,7 +67,7 @@
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>
 			<key>NSUbiquitousContainerName</key>
-			<string>4Friends</string>
+			<string>VPN4Friends</string>
 			<key>NSUbiquitousContainerSupportedFolderLevels</key>
 			<string>Any</string>
 		</dict>
@@ -87,7 +87,7 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>4Friends Profile</string>
+			<string>VPN4Friends Profile</string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
@@ -111,7 +111,7 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>4Friends Profile</string>
+			<string>VPN4Friends Profile</string>
 			<key>UTTypeIconFiles</key>
 			<array>
 				<string>AppIcon.icns</string>

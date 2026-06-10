@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3AEC20F22A459AB400A63465"
-               BuildableName = "4Friends.app"
-               BlueprintName = "SFI"
+               BuildableName = "VPN4Friends.app"
+               BlueprintName = "VPN4Friends"
                ReferencedContainer = "container:sing-box.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -58,8 +58,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AEC20F22A459AB400A63465"
-            BuildableName = "4Friends.app"
-            BlueprintName = "SFI"
+            BuildableName = "VPN4Friends.app"
+            BlueprintName = "VPN4Friends"
             ReferencedContainer = "container:sing-box.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AEC20F22A459AB400A63465"
-            BuildableName = "4Friends.app"
-            BlueprintName = "SFI"
+            BuildableName = "VPN4Friends.app"
+            BlueprintName = "VPN4Friends"
             ReferencedContainer = "container:sing-box.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

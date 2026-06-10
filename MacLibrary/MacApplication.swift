@@ -19,7 +19,7 @@ public struct MacApplication: Scene {
 
     public init() {}
     public var body: some Scene {
-        Window("4Friends", id: "main", content: {
+        Window("VPN4Friends", id: "main", content: {
             MainView()
                 .onAppear {
                     Task {
@@ -72,7 +72,7 @@ public struct MacApplication: Scene {
         .commands {
             if showMenuBarExtra {
                 CommandGroup(replacing: .appTermination) {
-                    Button("Quit 4Friends") {
+                    Button("Quit VPN4Friends") {
                         hide(closeApp: true)
                     }
                     .keyboardShortcut("q", modifiers: [.command])
