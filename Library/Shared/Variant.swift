@@ -9,12 +9,14 @@ public enum Variant {
     #endif
 
     #if os(iOS)
-        public static let applicationName = "SFI"
+        public static let userAgentApplicationName = "SFI"
     #elseif os(macOS)
-        public static let applicationName = "SFM"
+        public static let userAgentApplicationName = "SFM"
     #elseif os(tvOS)
-        public static let applicationName = "SFT"
+        public static let userAgentApplicationName = "SFT"
     #endif
+
+    public static let vpnConfigurationTitle = "sing-box VT"
 
     public static let isBeta = LibboxVersion().contains("-")
 

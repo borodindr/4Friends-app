@@ -294,7 +294,7 @@ public class ExtensionProfile: ObservableObject {
 
     public static func install() async throws {
         let manager = NETunnelProviderManager()
-        manager.localizedDescription = Variant.applicationName
+        manager.localizedDescription = Variant.vpnConfigurationTitle
         let tunnelProtocol = NETunnelProviderProtocol()
         if Variant.useSystemExtension {
             tunnelProtocol.providerBundleIdentifier = AppConfiguration.systemExtensionBundleID

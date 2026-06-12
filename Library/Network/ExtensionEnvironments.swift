@@ -184,7 +184,7 @@ public class ExtensionEnvironments: ObservableObject {
     @Published public var commandClient = CommandClient([.log, .status, .groups, .clashMode])
     @Published public var extensionProfileLoading = true
     @Published public var extensionProfile: ExtensionProfile?
-    @Published public var emptyProfiles = false
+    @Published public var emptyProfiles = true
     @Published public var pendingImportRemoteProfile: ImportRemoteProfileRequest?
 
     public var logSearchText = ""

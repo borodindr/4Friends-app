@@ -79,6 +79,16 @@ public final class NewProfileViewModel: BaseViewModel {
         if let onSuccess {
             await onSuccess(createdProfile)
         }
+        if environments.extensionProfile == nil {
+            await SharedPreferences.selectedProfileID.set(createdProfile.mustID)
+            do {
+                try await ExtensionProfile.install()
+                await environments.reload()
+            } catch {
+                alert = AlertState(action: "install network extension", error: error)
+                return
+            }
+        }
         if sendUpdateNotification {
             environments.profileUpdate.send()
         }
