@@ -20,7 +20,7 @@ enum BinaryMeta {
         var merged = Data(capacity: totalLength)
         for arr in arrays {
             let length = UInt32(arr.count)
-            var bytes: [UInt8] = [
+            let bytes: [UInt8] = [
                 UInt8((length >> 24) & 0xFF),
                 UInt8((length >> 16) & 0xFF),
                 UInt8((length >> 8) & 0xFF),

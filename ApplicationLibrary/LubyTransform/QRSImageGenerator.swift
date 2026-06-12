@@ -79,18 +79,14 @@ final class QRSImageGenerator: ObservableObject {
         let dimension = imageDimension
 
         return await Task.detached(priority: .userInitiated) {
-            do {
-                let document = try QRCode.Document(
-                    utf8String: content,
-                    errorCorrection: .low
-                )
-                document.design.foregroundColor(foregroundColor)
-                document.design.backgroundColor(backgroundColor)
-                document.design.additionalQuietZonePixels = 4
-                return try document.cgImage(dimension: dimension)
-            } catch {
-                return nil
-            }
+            let document = QRCode.Document(
+                utf8String: content,
+                errorCorrection: .low
+            )
+            document.design.foregroundColor(foregroundColor)
+            document.design.backgroundColor(backgroundColor)
+            document.design.additionalQuietZonePixels = 4
+            return document.cgImage(dimension: dimension)
         }.value
     }
 }
